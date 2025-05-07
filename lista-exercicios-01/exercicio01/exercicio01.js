@@ -1,6 +1,6 @@
 const prompt = require('prompt-sync')();
 
-let numero = prompt("Digite um número para verificar se ele é par ou impar2: ");
+let numero = prompt("Digite um número para verificar se ele é par ou impar: ");
 numero = parseInt(numero, 10);
 
 if (isNaN(numero)) {
