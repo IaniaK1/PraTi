@@ -11,4 +11,4 @@ if (isNaN(numero)) {
     } else {
         console.log("O número é ímpar.");
     }
-}2
+}
