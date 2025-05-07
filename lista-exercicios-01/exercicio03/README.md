@@ -1,4 +1,4 @@
-Este programa solicita a idade de uma pessoa e a categoriza como: criança, adolescente, adulta ou idosa.
+Este programa solicita a nota de um aluno e o categoriza como: Reprovado, Recuperação ou Aprovado.
 
 Como executar:
 
