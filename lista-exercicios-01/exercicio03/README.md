@@ -4,4 +4,4 @@ Como executar:
 
 Instale o prompt-sync => npm install prompt-sync
 
-Execute o arquivo => node exercicio01.js
+Execute o arquivo => node exercicio03.js
