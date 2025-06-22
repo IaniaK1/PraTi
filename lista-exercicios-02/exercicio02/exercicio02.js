@@ -3,6 +3,7 @@ const prompt = require('prompt-sync')();
 const numeroAleatorio = Math.floor(Math.random() * 100) + 1;
 
 let numeroUsuario = parseInt(prompt("Digite um número entre 1 e 100: "));
+cont = 1;
 
 while (numeroUsuario !== numeroAleatorio) {
     if (isNaN(numeroUsuario) || numeroUsuario < 1 || numeroUsuario > 100) {
@@ -14,7 +15,8 @@ while (numeroUsuario !== numeroAleatorio) {
     }
     
     numeroUsuario = parseInt(prompt("Digite um número entre 1 e 100: "));
+    cont++;
 }
 
-console.log("Parabéns! Você acertou o número:", numeroAleatorio);
-console.log("Fim do jogo.");
+console.log(`Parabéns! Você acertou o número ${numeroAleatorio} em ${cont} tentativas.`);
+console.log("Fim do jogo!");
