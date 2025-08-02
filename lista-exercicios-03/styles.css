@@ -21,3 +21,17 @@ footer {
     padding: 16px;
     border: 2px solid #3949ab;
 }
+
+h2 {
+    font-size: 2em;
+    text-decoration: underline;
+}
+
+.destaque {
+    font-size: italic;
+    background-color: #e3f2fd;
+}
+
+#importante {
+    border-top: 4px solid #247BA0
+}
