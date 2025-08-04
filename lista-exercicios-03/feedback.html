@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Feedback</title>
+</head>
+<body>
+    <header>
+        <h1>Formulário de Feedback</h1>
+        <p>Envie sua opinião ou sugestão para melhorar meus servicos!</p>
+    </header>
+    <main>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="endereco">Endereco:</label>
+            <input type="text" id="endereco" name="endereco" required>
+
+            <label for="tipo">Tipo de Feedback:</label>
+            <select id="tipo" name="tipo">
+                <option value="elogio">Elogio</option>
+                <option value="sugestao">Sugestão</option>
+                <option value="critica">Crítica</option>
+            </select>
+
+            <label for="feedback">Feedback:</label>
+            <textarea id="feedback" name="feedback" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+</body>
+</html>

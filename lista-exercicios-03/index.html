@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Pessoal</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="listas.html">Listas</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+        <h1>Bernardo Ianiak - Engenheiro de Dados</h1>
+        <p>Transformando dados brutos em insights estratégicos para decisões inteligentes</p>
+    </header>
+    <main>
+        <section>
+            <h2>Missão</h2>
+            <p>Desenvolver pipelines de dados robustos e escaláveis, garantindo qualidade e 
+                disponibilidade da informação para apoiar decisões estratégicas baseadas em dados.</p>
+        </section>
+        <section>
+            <h2>Visão</h2>
+            <p>Ser referência em arquiteturas de dados modernas, contribuindo para a transformação 
+                digital através de soluções inovadoras em Big Data, Cloud e Analytics.</p>
+        </section>
+    </main>
+    <footer>
+        <p id="importante">&copy; 2025 Bernardo Ianiak. Todos os direitos reservados.</p>
+    </footer>
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
